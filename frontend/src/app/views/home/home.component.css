@@ -1,0 +1,11 @@
+.home .title {
+    font-size: 3rem;/*esse rem é uma unidade relativa que está fzendo relação com a raiz da página,
+    ele serve para deixar a letra do cabeçalo "Bem vindo" maior, é um tamanho relativo, ele se adequa e fica sensível as alterações que o usuário colocar no browser dele*/
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.home .subtitle {
+    font-size: 1.1rem; /*o em é visto como o "pai" e se baseia sempre no anterior, o rem se baseia na página*/
+
+}

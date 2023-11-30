@@ -1,0 +1,15 @@
+<mat-toolbar class="header mat-elevation-z4">
+    <span>
+        <a routerLink="/"> <!--falou para quando clicar na logo, ir p página da home-->
+            <img class="logo" src="assets/img/logo.png" alt="logo">
+        </a>
+    </span>
+    <span class="title-group">
+    <a routerLink="{{ routeUrl }}">
+        <i class="material-icons">
+            {{icon}} <!--coloca um ícone de casa no título-->
+        </i>
+        {{ title }}
+    </a>
+    </span>
+</mat-toolbar>
